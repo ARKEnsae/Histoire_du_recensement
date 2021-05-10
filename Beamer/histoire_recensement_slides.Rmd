@@ -1,0 +1,281 @@
+---
+title: | 
+    | Histoire du recensement de la population en France
+subtitle: "Histoire et épistémologie de la statistique"
+author: | 
+    | Kim Antunez $\qquad \qquad \qquad \qquad$ Romain Lesauvage
+    | Alain Quartier-la-Tente
+division: "ENSAE 3A"
+departement: "(2020-2021)"
+logo: "img/LOGO-ENSAE.png"
+automaticcontents: false
+output:
+    beamer_presentation:
+        template: template.tex
+        keep_tex: yes
+        theme: TorinoTh
+        slide_level: 3
+        includes:
+          in_header: preamble_beamer.tex
+themeoptions: "coding=utf8,language=french"
+classoption: 'usepdftitle=false,french'
+fontsize: 10pt
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      cache = FALSE)
+```
+
+### Retracer cette histoire avec divers supports d’archive
+
+\begin{figure}
+\begin{picture}(200,150)   
+\put(10,-50){\includegraphics[width=0.6\textwidth,angle=-10,origin=c]{img/support1.png}}
+\pause
+\put(-60,-50){\includegraphics[width=0.8\textwidth,angle=10,origin=c]{img/support2.png}}
+\pause
+\put(-100,-20){\includegraphics[width=.4\textwidth,angle=-35,origin=c]{img/supporta.jpg}}
+\put(20,-30){\includegraphics[width=.4\textwidth,angle=0,page=3]{img/supportb.png}} 
+\put(90,-40){\includegraphics[width=.4\textwidth,angle=45,origin=c, page=2]{img/supportc.jpg}}
+\pause
+\put(-75,-40){\includegraphics[width=1.1\textwidth,angle=0,origin=c]{img/support3.png}}
+\pause
+\put(-10,-20){\includegraphics[width=0.6\textwidth,angle=30,origin=c]{img/support4.png}}
+\end{picture}    
+\end{figure}
+
+# Histoire du recensement
+
+### Sommaire
+\tableofcontents[currentsection, hideothersubsections]
+
+### XIVe siècle : Statistique des feux et exigences fiscales
+
+Quelques dates clefs \dots
+
+-	**1er siècle av JC** : Recensement de 368 000 habitants d'un camp helvète (*Jules César*)
+
+-	**786** : Recensement des sujets de plus de 12 ans astreints à prêter serment (*Charlemagne*)
+
+-	**1328** : « Etat des paroisses et feux de bailliages et sénéchaussées de France » (*Philippe IV le Valois*)
+
+-	**1539** : registres paroissiaux rendus obligatoires, ordonnance de Villers-Cotterêts (*François 1er*) 
+
+- **1686** : Vauban publie « Méthode générale et facile pour faire le dénombrement des peuples » (*Louis XIV*)
+
+<!-- ### XVIIe siècle : Vauban promeut les recensements -->
+
+<!-- \bigskip -->
+
+<!-- \begin{quote} -->
+<!-- \Huge\textbf{``}\normalsize -->
+<!-- \footnotesize -->
+<!-- \emph{Il n'y a qu'à continuer cette Table dans le même ordre jusqu'à la fin de chaque Paroisse, et au bas des colonnes mettre le total de ce qui s'y trouvera} -->
+<!-- \normalsize -->
+<!-- \begin{flushright} -->
+<!-- \Huge\textbf{''}\normalsize -->
+<!-- \end{flushright} -->
+<!-- \end{quote} -->
+
+<!-- \begin{figure} -->
+<!--   \caption{Première page et modèle de tableau dans l’ouvrage de Vauban (1686).} -->
+<!-- \begin{center} -->
+<!-- \includegraphics[width = 0.7\linewidth]{img/vauban.jpg} -->
+<!-- \end{center} -->
+<!-- %\vspace{0.1cm} -->
+<!-- \footnotesize -->
+<!-- \emph{Source -- gallica.bnf.fr / Bibliothèque nationale de France.} -->
+<!-- \end{figure} -->
+
+### 1801 : date du premier recensement français
+
+
+\bigskip
+
+\begin{figure}
+  \caption{Premières lignes de listes nominatives de quelques recensements ayant eu lieu à Togny-aux-Boeufs (département de la Marne) entre 1836 et 1901.}
+\begin{center}
+\includegraphics[width = 0.5\linewidth]{img/support1.png}
+\end{center}
+%\vspace{0.1cm}
+\footnotesize
+\emph{Source -- archives départementales de la Marne.}
+\end{figure}
+
+
+### 1946 : prise en charge du recensement par l'Insee
+
+\medskip
+
+\begin{figure}
+  \caption{Schéma de codage informatique de la catégorie de migrant dans le recensement de 1962.}
+\begin{center}
+\includegraphics[width = 0.6\linewidth]{img/informatique.png}
+\end{center}
+%\vspace{0.1cm}
+\footnotesize
+\emph{Source -- Chevry, 1963.\\Note -- Après un maximum de 6 lectures et comparaisons, l’ordinateur détermine la catégorie de migrant de l’individu et la chiffre sur une bande magnétique.}
+\end{figure}
+
+# Focus sur la rénovation du recensement en 2004
+
+### Sommaire
+\tableofcontents[currentsection, hideothersubsections]
+
+
+## Nouveau recensement
+
+
+### \bccalendrier 2004 : un nouveau recensement est né
+
+\bclampe Loi de démocratie de proximité du 27 février 2002 : le recensement est rénové 
+
+<!-- \pause -->
+**Objectifs :**
+
+\begin{itemize}
+
+\item données plus fraiches
+
+\item lissage des dépenses publiques
+
+%\item améliorations méthodologiques
+\end{itemize}
+
+\bigskip
+
+:::: {.columns}
+::: {.column}
+\highlightbf{Avant (<1999)}
+
+\begin{itemize}
+\item recensement exhaustif (tous les 6 à 9 ans)
+
+\smallskip
+\item coût ponctuel 150 millions €
+\end{itemize}
+:::
+
+::: {.column}
+\highlightbf{Après (>2004)}
+
+\begin{itemize}
+\item recensement annuel par sondage $\phantom{text{blablabla}}$
+
+\smallskip
+\item coût annuel : 30 millions €
+
+%\item méthodes de redressement
+\end{itemize}
+:::
+::::
+
+### Introduction d'un cycle de 5 années	
+
+1. Communes de moins de 10 000 habitants :
+
+    * 5 groupes de rotation (représentativité régionale)
+    
+    * recensement \highlight{exhaustif} d'1 groupe par an
+    
+\medskip <!-- \pause -->
+
+2. Communes de plus de 10 000 habitants :
+
+    * recensement annuel par \highlight{sondage}
+    
+    * RIL : 5 groupes d'adresses (20 % des logements, représentatitivé de la commune)
+    
+    * 1 groupe enquêté par an avec un tirage de 40 % des adresses
+
+<!-- \pause -->
+
+Pourquoi 10 000 \bcquestion 50 % de la population française habite dans des communes de moins de 10 000 habitants
+
+## Des attentes et des craintes...
+
+### Une meilleure connaissance de la population ?
+
+\textit{La théorie...}
+
+\faPlusSquare{} Des données plus fraîches.
+
+\faPlusSquare{} Un meilleur suivi des flux.
+
+\begin{center}\end{center}
+
+<!-- \pause -->
+
+\textit{... vs la pratique}
+
+\faPlusSquare{} Une population légale de référence publiée chaque année $N$...
+
+\faMinusSquare{} ... mais datée de $N-3$.
+
+\faPlusSquare{} Analyse améliorée des mobilités.
+
+\faMinusSquare{} Biais : doubles comptes, conjoncture
+
+
+### Des élus inquiets face à la surcharge de travail
+
+\begin{center}\bcattention \end{center}
+
+\faQuestionCircle{} Maires : surcharge de travail, transfert de compétences de l'État aux communes.
+
+\faQuestionCircle{} Parlementaires : 350 textes juridiques basés sur le recensement.
+
+<!-- \pause -->
+
+\begin{center}\bcsmmh\end{center}
+
+\faMinusCircle{} Mise à jour du RIL compliquée pour les communes.
+
+\faMinusCircle{} Mairies responsables du recensement : agents recenseurs à recruter, collecte, qualité des adresses.
+
+<!-- \pause -->
+
+\begin{center}\bcsmbh\end{center}
+
+\faPlusCircle{} Professionnalisation des équipes en charge du recensement.
+
+### Une précision en péril ?
+
+\begin{center}\bcattention \end{center}
+
+\faQuestionCircle{} Population méfiante face aux sondages.
+
+\faQuestionCircle{} Universitaires inquiets sur la précision.
+
+<!-- \pause -->
+
+\begin{center}\bcsmmh\end{center}
+
+\faMinusCircle{} Taux de non-réponse en hausse (3 \% vs 1 \%)
+
+<!-- \pause -->
+
+\begin{center}\bcsmbh\end{center}
+
+\faPlusCircle{} Précision toujours élevée : 0,02 \% d'erreur au niveau national
+
+### Conclusion
+
+\begin{center}\bcoeil\end{center}
+Histoire du recensement en France grâce aux archives...
+
+\begin{center}\bcstop\end{center}
+En 2002 : rénovation, introduction de \highlight{sondages}.
+
+\begin{center}\bcattention\end{center}
+Des craintes et doutes... mais une précision élevée, baisse de coûts, fraîcheur des données !
+  
+
+### Merci pour votre attention ! {.noframenumbering}
+
+\bigskip 
+
+\begin{center}
+\includegraphics[width = 3cm]{img/LOGO-ENSAE.png}
+\end{center}
